@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+header{
+    background-image: url(bgku.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    margin-top: 60px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    transition: 0.6s;
+    margin: 10 px;
+    font-size: 12px;
+    font-weight: bold;
+    float: right;
+}
+ul il a:hover{
+    background-color: #fff;
+    color:#fff;
+}ul li.active a{
+    background-color: #fff;
+    color: #fff;
+}
+.logo img{
+    float: left;
+    width: 120px;
+    height: auto;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.navbar{
+    max-width: 1200px;
+    margin: auto;
+}
+.contents{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+.contents h1{
+    color: #fff;
+    font-size: 70px;
+    text-shadow: -4px 4px 4px #000;
+}
+.color{
+    color: yellow;
+}
+.contents p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 400px;
+}
+.button{
+    position: absolute;
+    top: 50%;
+    left: 36%;
+    margin-top: 60px;
+    font-weight: bold;
+}
+.btn{
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    color:#fff;
+    text-decoration: none;
+    transition: 00.6s ease;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: red;
+    margin-left: 120px ;
+}
+.btn:hover{
+    background-color: green;
+    color: #fff;
+}
+
+/*--footer--*/
+.footer{
+	color: #69694f;
+	text-align: center;
+}
